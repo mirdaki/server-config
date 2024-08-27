@@ -54,6 +54,8 @@ in
 
       settings = {
         default_phone_region = "US";
+        # Missing an array index?
+        # user_oidc.use_pkce = true;
       };
 
       config = {
@@ -71,6 +73,7 @@ in
           contacts
           gpoddersync
           memories
+          # user_oidc
           ;
       };
     };

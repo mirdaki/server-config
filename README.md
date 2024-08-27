@@ -1,5 +1,7 @@
 # Computer Config
 
+docker run authelia/authelia:fix-salt-encoding authelia hash-password -m 128 -i 2 test
+
 ## NixOS Configuration
 
 To update the computer, run the below with the right profile (`#corellia` below):
